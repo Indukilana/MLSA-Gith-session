@@ -1,0 +1,268 @@
+
+body{
+ background-color:  #2b2b2b;
+}
+
+
+#navdiv{
+  width: 100%;
+  height: 50;
+  background-color: black;
+  position: fixed;  
+}
+#buttondiv{
+  height: 50;
+  width:100%;
+  box-shadow: none;
+  margin-left: 30;
+}
+button{
+  height: 40;
+  width: 170;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 10;
+  margin-top: 5;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-size: 15;
+}
+button:hover{
+  background-color:#489cf0;
+  border-radius: 20px;
+  font-size: 16;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#middletexttopic{
+  height: 30;
+  width: 10%;
+  background-color: none;
+  margin-left: 45%;
+  color: white;
+  font-size: 20;
+
+}
+
+#middletextslogan{
+  height: 60;
+  width: 88%;
+  font-weight: 50;
+  background-color:none;
+  font-size: 120%;
+  color: silver;
+  margin-top: -4;
+  margin-left: 108;
+  font-family: sans-serif;
+
+}
+
+#block1{
+
+  background-color: black;
+  color: white;
+  width: 88%;
+  height: 350;
+  margin-top: -30;
+  margin-left: 85;
+  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+}
+
+
+img.up{
+  width: 100%;
+  height: 370;
+} 
+
+ img.blockimg{
+  width: 47.5%;
+  height: 350;
+ }
+
+ #block2{
+
+  background-color: black;
+  color: white;
+  width:88% ;
+  height: 350;
+  margin-top: 30;
+  margin-left: 85;
+  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+ }
+
+#block3{
+  background-color: black;
+  color: white;
+  width: 88%;
+  height: 350;
+  margin-top: 20;
+  margin-left: 85;
+  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+}
+
+#block4{
+  background-color: black;
+  color: white;
+  width: 88%;
+  height: 350;
+  margin-top: 20;
+  margin-left: 85;
+  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+}
+
+#block1:hover{
+  box-shadow: 0px 20px 20px #4a4949;
+}
+
+#block2:hover{
+  box-shadow: 0px 20px 20px #4a4949;
+}
+
+#block3:hover{
+  box-shadow: 0px 20px 20px #4a4949;
+}
+
+#block4:hover{
+  box-shadow: 0px 20px 20px #4a4949;
+}
+
+table.bottomtable{
+  margin-left: 70%;
+  color: #999999;
+}
+td.bottomtd{
+  padding: 2;
+}
+#bottomdiv{
+  width: 100%;
+  height: 250;
+  margin-bottom: none;
+  background-color: black;
+}
+#inblocktext1{
+
+  background-color: none;
+  width:45%;
+  height: 300;
+  margin-left:600;
+  margin-top: -340;
+  font-size: 19;
+  font-family: sans-serif;
+  
+}
+
+
+#inblocktext2{
+
+  background-color: none;
+  width:45%;
+  height: 300;
+  margin-left:40;
+  margin-top: -340;
+  font-size: 19;
+  font-family: sans-serif;
+}
+
+#myBtn {
+  width: 60;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 55px;
+  z-index: 99;
+  font-size: 18px;
+  border-color: white ;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+#myBtn:hover {
+box-shadow: 0px 0px 20px #4a4949;
+}
+  
+#insta{
+  width: 89%;
+  height: 24%;
+  transition: 0.5s;
+  margin-left: 5px;
+}
+#insta:hover{
+  width: 106%;
+  height: 30%;
+}
+#face{
+  width: 105%;
+  height: 30%;
+  transition: 0.5s;
+}
+#face:hover{
+  width: 130%;
+  height: 36%;
+}
+#twitter{
+  width: 85%;
+  height: 24%;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+#twitter:hover{
+  width: 103%;
+  height: 28%;
+}
+
+#socialdiv{
+  width: 4%;
+  height: 30%;
+  float: left;
+  margin-top: 35%;
+  border-radius: 8px;
+  margin-left: 2.5%;
+  position: fixed;
+  background-color:transparent;
+  box-shadow: none;
+
+}
+#socialdiv:hover{
+  box-shadow: none;
+}
